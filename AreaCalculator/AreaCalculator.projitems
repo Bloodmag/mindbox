@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>98ea4ddc-8d04-4c88-8a65-7c662e08f466</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>AreaCalculationLibrary</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Consts.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Figures\Circle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Figures\Figure.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Figures\Triangle.cs" />
+  </ItemGroup>
+</Project>

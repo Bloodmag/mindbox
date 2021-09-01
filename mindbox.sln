@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{8512721C-6B44-42F7-A245-8AFE09689470}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AreaCalculationLibrary", "AreaCalculator\AreaCalculationLibrary.shproj", "{98EA4DDC-8D04-4C88-8A65-7C662E08F466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaCalculationLibraryUnit", "AreaCalculationLibraryUnit\AreaCalculationLibraryUnit.csproj", "{48174497-7A5E-4F2F-B8D1-D07920060FC5}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		AreaCalculator\AreaCalculator.projitems*{48174497-7a5e-4f2f-b8d1-d07920060fc5}*SharedItemsImports = 5
+		AreaCalculator\AreaCalculator.projitems*{8512721c-6b44-42f7-a245-8afe09689470}*SharedItemsImports = 5
+		AreaCalculator\AreaCalculator.projitems*{98ea4ddc-8d04-4c88-8a65-7c662e08f466}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8512721C-6B44-42F7-A245-8AFE09689470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8512721C-6B44-42F7-A245-8AFE09689470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8512721C-6B44-42F7-A245-8AFE09689470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8512721C-6B44-42F7-A245-8AFE09689470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48174497-7A5E-4F2F-B8D1-D07920060FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48174497-7A5E-4F2F-B8D1-D07920060FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48174497-7A5E-4F2F-B8D1-D07920060FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48174497-7A5E-4F2F-B8D1-D07920060FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {184DB922-71FD-4507-94A9-0A0AD5B95AA4}
+	EndGlobalSection
+EndGlobal
